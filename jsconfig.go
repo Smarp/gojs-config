@@ -1,4 +1,4 @@
-package tools
+package jsconfig
 
 import (
 	"encoding/json"
