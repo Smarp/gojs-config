@@ -54,7 +54,7 @@ func (c JSConfig) Int(path string, def int) (value int) {
 		}
 	}()
 	ivalue := c.loop(path)
-	value = ivalue.(int)
+	value = int(ivalue.(float64))
 	return
 }
 
